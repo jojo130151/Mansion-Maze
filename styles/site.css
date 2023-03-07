@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    background-color: black;
+    background-repeat: repeat-y;
+    background-blend-mode:soft-light;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    padding: 1vw;
+}
+
+h1, p, label, footer {
+    color: white;
+}
+
+body {
+    background-image: url(../dark-wood-texture-383.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Baskerville, "American Typewriter", Garamond, Verdana;
+    font-size: 2vw;
+}

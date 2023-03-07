@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+
+
+<body>
+    <div class="container">
+    <div class="main">
+        <h1>Mansion Maze</h1>
+        <div class="instructions">
+            <p id="instructions"></p>
+        </div>
+        <div class="status">
+            <p id="status"></p>
+            <label for="command">Your Action:</label>
+            <input type="text" id="command">
+            <button type="button" id="cmdSubmit" onclick="runAction()">Enter</button>
+        </div>
+        <div class="console">
+            <p id="console"> </p>
+        </div>
+    </div>
+    <footer>
+        Jordan Davis - Mansion Maze - Feb 2023
+    </footer>
+</div>
+    <script src="scripts/game.js"></script>
+</body>
+
+</html>
